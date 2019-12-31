@@ -1,0 +1,599 @@
+
+<!DOCTYPE html>
+  <html>
+  <head>
+    <title>ChamMi</title>
+   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap&subset=korean" rel="stylesheet">
+    <style type="text/css">
+    @font-face {
+      font-family: "DungGeunMo";
+      src: url("DungGeunMo.woff");
+    }
+    	a:link, a:active, a:visited{text-decoration: none; }
+	    a:link, a:active, a:visited{color: #223896;}
+  #container{position: relative; margin: auto; width:800px; height: 700px;font-family: "DungGeunMo"; }
+  #container2{position: relative; margin: auto; width:1100px; height: 200px;font-family: "DungGeunMo"; }
+    #container3{position: relative; margin: auto; width:1100px; height: 100px;font-family: "DungGeunMo"; }
+    	body{background-color: #d6ddf2; overflow: hidden; font-family: "DungGeunMo"; cursor: url(cursor.png), auto }
+    	.wrap{width: 100%; height: 100%; box-sizing: border-box;}
+    	.header{width: 100%; border-bottom:2px solid #223896; position: absolute; top: 0px; left: 0px; height: 7%; box-sizing: border-box;}
+    	.topnav{width: 100%; border-bottom:2px solid  #223896;; position: absolute; top: 7%; left: 0px; height: 4%; box-sizing: border-box;}
+    	.footer{width: 100%; height: 5%; border-top:2px solid  #142151;; position: absolute; bottom: 0px; left: 0px; box-sizing: border-box; background-color:  #142151;}
+    	.midcont{width: 100%; height: 81%; position: absolute; top: 11%; left: 0px;  box-sizing: border-box; float: left; }
+    	.leftnav{width: 13%; height: 110%; position: relative; background-color: #d6ddf2; border-right:2px solid  #223896; box-sizing: border-box; float: left; overflow: hidden;}
+    	.rightcont{width: 87%; height: 104%; position: relative; background-color: #d6ddf2; box-sizing: border-box; float: left; overflow: auto;}
+    	.rc2{width: 100%; height: 1010%; background-color: #0a122d;}
+
+    	.header1{width: 13%; height: 100%;  box-sizing: border-box; float: left; padding-top: 0.5%;}
+    	.header2{width: 60%; height: 100%; box-sizing: border-box; float: left; padding-top: 0.2%; font-size: 2em; padding-left: 1.2%;}
+    	.header3{width: 20%; height: 100%; box-sizing: border-box; float: left; text-align: right; padding-top: 0.5%; padding-right: 1.2%;}
+
+    	.topnav1{width: 13%; height: 100%; border-right: 2px solid  #223896; box-sizing: border-box; float: left; background-color: #223896;}
+    	.topnav2{width: auto; height: 100%; box-sizing: border-box; float: left; padding-left: 2%; margin-right: 7%;}
+    	.topnav2:hover{font-weight: 700; }
+    	.topnav3:hover{font-weight: 700;}
+    	.topnav3{width: auto; height: 100%; box-sizing: border-box; float: left; margin-right: 7%;}
+
+    	.leftnav1{width: 100%; height: 13%; float: left; font-size: 2em; font-weight: 600; padding-top: 0.5%; padding-left: 14%; border-bottom : 2px solid  #223896; box-sizing: border-box;}
+    
+   	#aboutself:hover{opacity: 50%;}
+   	#aboutself{position: absolute; z-index: 99;font-size: 1.3em; font-weight: 600; top: 4.5%; left: 8%; text-align: center;}
+   	#aboutself2{position: absolute; z-index: 99;font-size: 1.3em; font-weight: 600; top: 4.5%; left: 8%;}
+    	.footer1{width: 20%; height: 100%; float: left; line-height: 5em;}
+    	.footer2{width: 20%; height: 100%; float: right; text-align: right; line-height: 5em;}
+      .twrap{width: 100%; height: auto; float: left;}
+      .twrap img{width: 100%;}
+    	.title1{width: 70%; height: 100px; float: left; padding-left: 1.2%; padding-top: 0.5%; font-size: 2em; font-weight: 600;}
+    	.title2{width: 70%; height: 100px; float: left; padding-top: 0.5%; font-size: 2em; font-weight: 600; top: 0px; position: absolute; right: -185px;}
+
+    	.realtext{width: 95%; height: 400px; float: left; padding-left: 1.2%; font-size: 1.9em;  margin-top: 50px;}
+      #fa:hover{opacity: 50%;}
+         #fa2:hover{opacity: 50%;}
+            #fa3:hover{opacity: 50%;}
+            #fa4:hover{opacity: 50%;}
+    	#ch:hover{opacity: 50%;}
+      #ch2:hover{opacity: 80%;}
+      #ch3:hover{opacity: 80%;}
+      #po img{}
+      #po img:hover{opacity: 50%;}
+            #po2{}
+  
+      #chaa:hover{color: #ccc719;}
+#dada{}
+#tada{}
+#dada2{}
+#tada2{}
+#dada3{}
+#tada3{}
+#dada4{}
+#tada4{}
+#dada5{}
+#tada5{}
+#dada6{}
+#tada6{}
+#dada7{}
+#tada7{}
+#dada8{}
+#tada8{}
+#dada9{}
+#tada9{}
+#dada10{}
+#tada10{}
+#dada11{}
+#tada11{}
+#dada12{}
+#tada12{}
+#dada13{}
+#tada13{}
+#dada14{}
+#tada14{}
+#dada15{}
+#tada15{}
+#dada16{}
+#tada16{}
+
+#tala{}
+#tala2{}
+#tala3{}
+#tala4{}
+
+    </style>
+  </head>
+  <body >
+  	<div class="wrap">
+  		<div class="header">
+  			<div class="header1"><div style="left:1%; top: 13%; font-size: 3em; color:  #223896;" id="aboutself2">JAE HYUN SEO _ PORTFOLIO WEB</div></div>
+  			<div class="header2"></div>
+  			<div class="header3"></div>
+  		</div>
+  		<div class="topnav">
+  			<div class="topnav1"> <div style="top: 17.5%; left: 0%; padding-left: 1.2%; color: white; background-repeat: repeat;" id="aboutself2">INDEX</div>
+        <div style="  top: 22.7%; left: 17%; padding-left: 1.2%; color: #223896; background-repeat: repeat;" id="aboutself">1. 게임 소개</div> 
+        <div style="top: 22.7%; left: 29%; padding-left: 1.2%; color: #223896; background-repeat: repeat;opacity: 50%;" id="aboutself">2. 게임 스토리(설정)</div> 
+        <div style="top: 22.7%; left: 45%; padding-left: 1.2%; color: #223896; background-repeat: repeat;" id="aboutself">3. 게임 설계</div> 
+       <div style="top: 22.7%; left: 56%; padding-left: 1.2%; color: #223896; background-repeat: repeat;" id="aboutself">4. 게임 시스템</div> 
+       <div style="top: 22.7%; left: 68%; padding-left: 1.2%; color: #223896; background-repeat: repeat;" id="aboutself">5. 스테이지(맵) 설정</div> 
+  <div style="top: 22.7%; left: 83%; padding-left: 1.2%; color: #223896; background-repeat: repeat; " id="aboutself">6. 애니메이션</div> 
+         <img style="height: 100%; " src="st.png"></div>
+  			<div class="topnav2"></div>
+  			<div class="topnav3"> </div>
+  		</div>
+  		<div class="midcont">
+  			<div class="leftnav">
+  				<div class="leftnav1"> <div style="color: #223896;" id="aboutself">ABOUT SELF</div> </div>
+  				<div class="leftnav1"><div style="top: 17.5%;color: #223896; opacity: 50%; " id="aboutself">GAME</div> </div>
+  				<div class="leftnav1"><div style="top: 30.5%; color: #223896;" id="aboutself">UX/GUI</div></div>
+  				<div class="leftnav1"><div style="top: 43.5%;color: #223896;" id="aboutself">JOURNAL</div></div>
+          <img style="height: 100%; width: 70px; height: 70px; position: absolute; top: 70%; left: 35%;" src="backk.png" id="ch3">
+  			</div>
+  			<div class="rightcont">
+  				<div class="rc2">
+
+          <div class="twrap">
+  				  
+
+<div id="container">
+<div style="position: absolute; top: 10%; left: -28%; width: 100%; line-height: 400%; font-size: 1em; color: white; font-family: 'Noto Sans KR', sans-serif; font-style: "><strong><div style="font-size: 1.3em;">전반 스토리
+</div> </strong> 
+<div style="position: absolute; top: 150%; left: 8%; width: 100%; line-height: 250%; font-size: 1em; color: white; font-family: 'Noto Sans KR', sans-serif; font-style: ">비둘기의 몸 속에서는 씨앗과 씨앗이 아닌 자들의 대립이 한창이다.<br>
+주인공은 이들을 보면서 안타깝다는 생각도, 도와주고 싶다는 생각도 하지 않는다. 그렇게 살아가던 주인공은 소화되지 않는 씨앗임에도 갇혀 있는 씨앗을 발견한다. 의구심이 들었지만 평소처럼 무감정하게 지나가기로 한다.<br>
+그러자 갇혀 있던 씨앗이 이 몸 속을 나갈 수 있는 방법을 알려주겠다며 주인공을 회유한다. 작은 씨앗으로 커다란 나무가 될 수 있음도 언급한다. 커다란 나무라는 이야기에 주인공은 커다란 나무를 쳐다보던 과거의 자신을 떠올린다.<br>
+주인공은 항상 자신이 밖에 있었을 때 항상 부럽게 바라보았던 큰 나무가 되고 싶다는 생각을 가지고 있었다. <br>일말의 희망을 느낀 주인공은 방법을 알려준다는 약속을 받고 씨앗을 구출하게 된다.<br><br>
+그렇게 주인공은 처음으로 씨앗을 구출하게 되었고 오직 자신의 목표를 위해  씨앗을 구출한 주인공은 씨앗에게 어떠한 동료애도 느끼지 못하였다. 구해준 씨앗은 자신과 같이 무고하게 갇히게 된 씨앗들을 구출해 줄 것을 요구했으며 그렇게만 해준다면 이 곳에서 나갈 수 있는 방법을 알려주겠다고 약속한다.<br><br>
+
+처음에는 이 곳에서 나가, 나무가 되기 위해 (자신의 목적을 이루기 위해) 씨앗을 구출했지만 차례차례 다른 씨앗들을 구출하게 되면서 주인공은 알 수 없는 뿌듯함과 동료애를 가지게 된다. 그렇게 동료를 꽤 모았을 즈음, 주인공은 자신이 씨앗이 아니라 밥풀이라는 사실을 알게 된다.
+씨앗이 아닌 밥풀은 씨앗이 아닌 여기서는 경멸시되는 존재이며 그 때문에 씨앗인 마을사람들에게서 추방당하고 마을 밖 누렁들에게 던져지게 된다.
+하지만 주인공이 구해주고 모은 동료들은 주인공을 끝까지 버리지 않았으며 비둘기의 밖으로 나갈 때 까지 주인공을 지켜 주기로 약속한다. 
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+<img style="position: absolute; top: 40%; left: 90%; height: 50%; width: auto;" src="mama.png">
+</div>
+  <div id="container2">
+
+          
+          </div>
+               <div id="container3">
+
+          </div>
+ <hr style="border: dashed 1px #3c4f82;">
+
+<div id="container">
+
+<img style="position: absolute; top: 15%; left: -13%; height: 100%; width: auto;" src="titi.png">
+</div>
+
+  <div id="container3">
+
+          </div>
+            <div id="container3">
+
+          </div>
+           <hr style="border: dashed 1px #3c4f82;">
+
+<div id="container">
+ <div style="position: absolute; top: 6%; left: -28%; width: 100%; line-height: 400%; font-size: 1.3em; color: white; font-family: 'Noto Sans KR', sans-serif; font-style: "><strong>주인공 설정
+ </strong></div>
+          <img style="position: absolute; top:25%; left: -31%; height: 110%; width: auto;" src="hint2.png">
+          </div>
+
+
+  <div id="container3">
+
+          </div>
+            <div id="container3">
+
+          </div>
+                      <div id="container3">
+
+          </div>
+                      <div id="container3">
+
+          </div>
+           <hr style="border: dashed 1px #3c4f82;">
+
+
+<div id="container">
+ <div style="position: absolute; top: 6%; left: -28%; width: 100%; line-height: 400%; font-size: 1.3em; color: white; font-family: 'Noto Sans KR', sans-serif; font-style: "><strong>등장 인물 배열 <div style="color: #c45162;">▶ 캐릭터를 클릭하여 상세 정보를 보실 수 있습니다.</div>
+ </strong></div>
+          <img style="position: absolute; top:33%; left: -26%; height: 90%; width: auto;" src="chat.png">
+      <div id="dada">
+           <img style="position: absolute; top:59%; left: -30%; height: 15%; width: auto;" src="blank.png">
+      </div>
+      <div id="dada2">
+           <img style="position: absolute; top:59%; left: -10%; height: 15%; width: auto;" src="blank.png">
+      </div>
+       <div id="dada3">
+           <img style="position: absolute; top:59%; left: 10%; height: 15%; width: auto;" src="blank.png">
+      </div>  
+             <div id="dada4">
+           <img style="position: absolute; top:59%; left: 28%; height: 15%; width: auto;" src="blank.png">
+      </div>     
+             <div id="dada5">
+           <img style="position: absolute; top:55%; left: 45%; height: 25%; width: auto;" src="blank.png">
+      </div>  
+             <div id="dada6">
+           <img style="position: absolute; top:30%; left: 70%; height: 45%; width: auto;" src="blank.png">
+      </div>  
+             <div id="dada7">
+           <img style="position: absolute; top:55%; left: 112%; height: 15%; width: auto;" src="blank.png">
+      </div>  
+             <div id="dada8">
+           <img style="position: absolute; top:97%; left: -27%; height: 20%; width: auto; z-index: 99;" src="blank.png">
+      </div>  
+             <div id="dada9">
+           <img style="position: absolute; top:97%; left: 0%; height: 20%; width: auto; z-index: 99;" src="blank.png">
+      </div> 
+             <div id="dada10">
+           <img style="position: absolute; top:97%; left: 17%; height: 20%; width: auto; z-index: 99;" src="blank.png">
+      </div> 
+             <div id="dada11">
+           <img style="position: absolute; top:97%; left: 50%; height: 20%; width: auto; z-index: 99;" src="blank.png">
+      </div> 
+            <div id="dada12">
+           <img style="position: absolute; top:97%; left: 68%; height: 20%; width: 12%; z-index: 99;" src="blank.png">
+      </div> 
+            <div id="dada13">
+           <img style="position: absolute; top:97%; left: 85%; height: 20%; width: 12%; z-index: 99;" src="blank.png">
+      </div> 
+            <div id="dada14">
+           <img style="position: absolute; top:97%; left: 98%; height: 20%; width: 12%; z-index: 99;" src="blank.png">
+      </div> 
+          <div id="dada15">
+           <img style="position: absolute; top:97%; left: 113%; height: 20%; width: 12%; z-index: 99;" src="blank.png">
+      </div> 
+          <div id="dada16">
+           <img style="position: absolute; top:97%; left: 37%; height: 20%; width: 12%; z-index: 99;" src="blank.png">
+      </div> 
+
+
+
+      <div style="display: none;" id="tada">
+            <img style="position: absolute; top:25%; left: -10%; height: 85%; width: auto;" src="mon1.png">
+      </div>
+           <div style="display: none;" id="tada2">
+            <img style="position: absolute; top:25%; left: -10%; height: 85%; width: auto;" src="mon2.png">
+      </div> 
+           <div style="display: none;" id="tada3">
+            <img style="position: absolute; top:25%; left: -10%; height: 85%; width: auto;" src="mon3.png">
+      </div> 
+    
+           <div style="display: none;" id="tada4">
+            <img style="position: absolute; top:25%; left: -10%; height: 85%; width: auto;" src="mon4.png">
+      </div> 
+         <div style="display: none;" id="tada5">
+            <img style="position: absolute; top:25%; left: -10%; height: 85%; width: auto;" src="mon5.png">
+      </div> 
+         <div style="display: none;" id="tada6">
+            <img style="position: absolute; top:25%; left: -10%; height: 85%; width: auto;" src="mon6.png">
+      </div> 
+        <div style="display: none;" id="tada7">
+            <img style="position: absolute; top:25%; left: -10%; height: 85%; width: auto;" src="mon7.png">
+      </div> 
+        <div style="display: none;" id="tada8">
+            <img style="position: absolute; top:25%; left: -10%; height: 85%; width: auto;" src="coll8.png">
+      </div> 
+        <div style="display: none;" id="tada9">
+            <img style="position: absolute; top:25%; left: -10%; height: 85%; width: auto;" src="coll5.png">
+      </div> 
+        <div style="display: none;" id="tada10">
+            <img style="position: absolute; top:25%; left: -10%; height: 85%; width: auto;" src="coll6.png">
+      </div> 
+        <div style="display: none;" id="tada11">
+            <img style="position: absolute; top:25%; left: -10%; height: 85%; width: auto;" src="coll2.png">
+      </div> 
+        <div style="display: none;" id="tada12">
+            <img style="position: absolute; top:25%; left: -10%; height: 85%; width: auto;" src="coll1.png">
+      </div> 
+        <div style="display: none;" id="tada13">
+            <img style="position: absolute; top:25%; left: -10%; height: 85%; width: auto;" src="coll3.png">
+      </div> 
+       <div style="display: none;" id="tada14">
+            <img style="position: absolute; top:25%; left: -10%; height: 85%; width: auto;" src="coll4.png">
+      </div> 
+       <div style="display: none;" id="tada15">
+            <img style="position: absolute; top:25%; left: -10%; height: 85%; width: auto;" src="coll7.png">
+      </div> 
+      <div style="display: none;" id="tada16">
+            <img style="position: absolute; top:25%; left: -10%; height: 85%; width: auto;" src="coll9.png">
+      </div> 
+
+          </div>
+
+  <div id="container3">
+
+          </div>
+            <div id="container3">
+
+          </div>
+                      <div id="container3">
+
+          </div>
+ 
+<div id="container">
+ <div style="position: absolute; top: 6%; left: -28%; width: 100%; line-height: 400%; font-size: 1.3em; color: white; font-family: 'Noto Sans KR', sans-serif; font-style: "><strong>인물 관계도
+ </strong></div>
+          <img style="position: absolute; top:18%; left: -30%; height: 115%; width: auto;" src="bol.png">
+          </div>
+
+
+
+
+
+  <div id="container3">
+
+          </div>
+            <div id="container3">
+
+          </div>
+                      <div id="container3">
+
+          </div>
+                      <div id="container3">
+
+          </div>
+           <hr style="border: dashed 1px #3c4f82;">
+
+
+
+
+
+
+
+<div id="container">
+ <div style="position: absolute; top: 10%; left: -28%; width: 100%; line-height: 400%; font-size: 1.3em; color: white; font-family: 'Noto Sans KR', sans-serif; font-style: "><strong>모험 시놉시스
+    </strong></div>
+ <div style="position: absolute; top: 30%; left: -18%; width: 50%; line-height: 250%; font-size: 1em; color: white; font-family: 'Noto Sans KR', sans-serif; border: 1px solid #999; padding: 20px;">씨앗을 먹은 새의 소화기관에 따라 소화과정의 순서대로 게임의 스테이지가 이루어져 있으며 각각의 스테이지를 클리어 한 후에도 방문했던 스테이지를 방문 가능하다. <br>
+(히든 스테이지 제외)<br>
+각각의 스테이지는 새가 섭취한 음식물의 종류별로 이루어진 집단과 연관이 있으며 이들은 모두 살아 움직인다.
+<br><br><strong> 새(비둘기)의 소화기관 맵</strong><br>
+
+부리 안– 식도(1,2,3) – 모이주머니(1,보스) – 전위(1,2) – 모래주머니(1,보스) – 장(1,2) – 총 배설강(히든) - 바깥(엔딩)<br>
+총 11개의 맵 (프롤로그, 엔딩 제외)
+</div>
+<img style="position: absolute; top: 16%; left: 68%; height:80%; width: auto;" src="end.png">
+
+<div style="position: absolute; top: 105%; left: 55%; width:80%; line-height: 250%; font-size: 0.8em; color: white; font-family: 'Noto Sans KR', sans-serif;">
+  ●  각각의 스테이지 별로 숨어있는 포박당한 씨앗들을 동료로 영입이 가능하다.<br>
+●  동료로 영입한 씨앗들로 플레이 캐릭터를 바꿀 수 있다.<br>
+●  구출한 씨앗들은 각기 다른 능력을 지니고 있으며 이는 맵 별 상호작용이 가능하다.
+
+         </div>
+         <div style="z-index: 99; display: none;" id="po2">
+<img style="position: absolute; top:13%; left: -6%; height:105%; width: auto; z-index: 100;" src="hint1.png">
+</div>
+          </div>
+
+
+  <div id="container3">
+<div style="z-index: 99;" id="po">
+<img style="position: absolute; top: 45%; left: 6%; height:80%; width: auto;" src="momo.png">
+</div>
+
+          </div>
+            <div id="container3">
+
+          </div>
+           <hr style="border: dashed 1px #3c4f82;">
+
+<div id="container">
+ <div style="position: absolute; top: 6%; left: -28%; width: 100%; line-height: 400%; font-size: 1.3em; color: white; font-family: 'Noto Sans KR', sans-serif; font-style: "><strong>몬스터 
+ </strong> <br>▶ 선택해 주세요!</div>
+       <div id="fa4">
+          <img style="position: absolute; top:20%; left: 10%; height: 70%; width: auto;" src="la4.png">
+      </div>   
+      <div id="fa">
+          <img style="position: absolute; top:72%; left: 0%; height: 30%; width: auto;" src="la.png">
+      </div>
+      <div id="fa2">
+          <img style="position: absolute; top:80%; left: 28%; height: 30%; width: auto;" src="la2.png">
+      </div>
+       <div id="fa3">
+          <img style="position: absolute; top:67%; left: 66%; height: 40%; width: auto;" src="la3.png">
+      </div>   
+ 
+<div style="z-index: 99; display: none;" id="tala">
+<img style="position: absolute; top: 15%; left: -18%; height:120%; width: auto;" src="tart.png">
+</div>
+<div style="z-index: 99; display: none;" id="tala2">
+<img style="position: absolute; top: 15%; left: -8%; height:120%; width: auto;" src="moa.png">
+</div>
+<div style="z-index: 99; display: none;" id="tala3">
+<img style="position: absolute; top: 15%; left: -18%; height:120%; width: auto;" src="moa2.png">
+</div>
+<div style="z-index: 99; display: none;" id="tala4">
+<img style="position: absolute; top: 5%; left: -32%; height:120%; width: auto;" src="moa3.png">
+</div>
+          </div>
+
+  <div id="container3">
+
+          </div>
+            <div id="container3">
+
+          </div>
+            <div id="container3">
+
+          </div>
+           <hr style="border: dashed 1px #3c4f82;">
+
+<div id="container">
+ <div style="position: absolute; top: 6%; left: -28%; width: 100%; line-height: 400%; font-size: 1.3em; color: white; font-family: 'Noto Sans KR', sans-serif; font-style: "><strong>주인공 성장
+ </strong></div>
+          <img style="position: absolute; top:5%; left: -11%; height: 130%; width: auto;" src="gigi.png">
+          </div>
+
+
+  <div id="container3">
+
+          </div>
+            <div id="container3">
+
+          </div>
+                      <div id="container3">
+
+          </div>
+                      <div id="container3">
+
+          </div>
+ 
+
+  <audio id="op">
+    <source src="ya.wav" type="audio/mpeg">
+  </audio>
+
+
+
+
+
+
+				</div>
+  			</div>
+  		</div>
+  		<div style="position: fixed;" class="footer">
+  			<div class="footer1"><div style="top: -33%; left:2%; color: white;" id="aboutself2">+82-10-5126-9691</div></div>
+  			<div class="footer2"><div style="top: -33%; left:88%; color: white;" id="aboutself2">tjwogus97@gmail.com</div></div>
+  		</div>
+  	</div>
+    <script type="text/javascript">
+   ch3.onclick =  function goBack() {
+  window.history.back();
+}
+  dada.onclick =  function(){op.play();
+ tada.style.display = "inline";
+}
+  tada.onclick =  function(){op.play();
+ tada.style.display = "none";
+}
+  dada2.onclick =  function(){op.play();
+ tada2.style.display = "inline";
+}
+  tada2.onclick =  function(){op.play();
+ tada2.style.display = "none";
+}
+  dada3.onclick =  function(){op.play();
+ tada3.style.display = "inline";
+}
+  tada3.onclick =  function(){op.play();
+ tada3.style.display = "none";
+}
+  dada4.onclick =  function(){op.play();
+ tada4.style.display = "inline";
+}
+  tada4.onclick =  function(){op.play();
+ tada4.style.display = "none";
+}
+  dada5.onclick =  function(){op.play();
+ tada5.style.display = "inline";
+}
+  tada5.onclick =  function(){op.play();
+ tada5.style.display = "none";
+}
+  dada6.onclick =  function(){op.play();
+ tada6.style.display = "inline";
+}
+  tada6.onclick =  function(){op.play();
+ tada6.style.display = "none";
+}
+  dada7.onclick =  function(){op.play();
+ tada7.style.display = "inline";
+}
+  tada7.onclick =  function(){op.play();
+ tada7.style.display = "none";
+}
+  dada8.onclick =  function(){op.play();
+ tada8.style.display = "inline";
+}
+  tada8.onclick =  function(){op.play();
+ tada8.style.display = "none";
+}
+  dada9.onclick =  function(){op.play();
+ tada9.style.display = "inline";
+}
+  tada9.onclick =  function(){op.play();
+ tada9.style.display = "none";
+}
+  dada10.onclick =  function(){op.play();
+ tada10.style.display = "inline";
+}
+  tada10.onclick =  function(){op.play();
+ tada10.style.display = "none";
+}
+  dada11.onclick =  function(){op.play();
+ tada11.style.display = "inline";
+}
+  tada11.onclick =  function(){op.play();
+ tada11.style.display = "none";
+}
+  dada12.onclick =  function(){op.play();
+ tada12.style.display = "inline";
+}
+  tada12.onclick =  function(){op.play();
+ tada12.style.display = "none";
+}
+  dada13.onclick =  function(){op.play();
+ tada13.style.display = "inline";
+}
+  tada13.onclick =  function(){op.play();
+ tada13.style.display = "none";
+}
+  dada14.onclick =  function(){op.play();
+ tada14.style.display = "inline";
+}
+  tada14.onclick =  function(){op.play();
+ tada14.style.display = "none";
+}
+  dada15.onclick =  function(){op.play();
+ tada15.style.display = "inline";
+}
+  tada15.onclick =  function(){op.play();
+ tada15.style.display = "none";
+}
+  dada16.onclick =  function(){op.play();
+ tada16.style.display = "inline";
+}
+  tada16.onclick =  function(){op.play();
+ tada16.style.display = "none";
+}
+  po.onclick =  function(){op.play();
+ po2.style.display = "inline";
+}
+  po2.onclick =  function(){op.play();
+ po2.style.display = "none";
+}
+  fa3.onclick =  function(){op.play();
+ tala.style.display = "inline";
+}
+  tala.onclick =  function(){op.play();
+ tala.style.display = "none";
+}
+  fa2.onclick =  function(){op.play();
+ tala2.style.display = "inline";
+}
+  tala2.onclick =  function(){op.play();
+ tala2.style.display = "none";
+}
+  fa.onclick =  function(){op.play();
+ tala3.style.display = "inline";
+}
+  tala3.onclick =  function(){op.play();
+ tala3.style.display = "none";
+}
+  fa4.onclick =  function(){op.play();
+ tala4.style.display = "inline";
+}
+  tala4.onclick =  function(){op.play();
+ tala4.style.display = "none";
+}
+    </script>
+  </body>
+
+  </html>
